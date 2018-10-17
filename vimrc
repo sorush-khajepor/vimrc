@@ -1,4 +1,4 @@
- " This is necessary on some systems for sane backspace
+" This is necessary on some systems for sane backspace
 set backspace=2 
 
 " Show Line numbers
