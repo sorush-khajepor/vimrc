@@ -51,3 +51,8 @@ if has("unix")
     let &t_EI="\033[1 q" " end insert mode
   endif
 endif
+
+"The working directory doesn't store backupfiles
+set backupdir-=.
+" Backup files are placed in the below folder. For windows, use $TEMP parameter.
+set backupdir^=~/tmp,/tmp
