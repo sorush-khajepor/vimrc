@@ -31,6 +31,10 @@ map <Tab> i<Tab><ESC>l
 " Enter or o key brings cursor down with indent
 set autoindent
 
+" See the file name and path at the bottom constantly even for long files
+ set laststatus=2
+ set statusline+=%F
+
 " Use Consolas font family in different OS's (only for GUI VIM) 
 if has("gui_running")
   if has("gui_gtk2")
